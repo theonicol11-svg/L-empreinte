@@ -1,6 +1,6 @@
 baseURL = 'https://github.com/theonicol11-svg/L-empreinte.git'
 languageCode = 'fr-fr'
-title = 'coucou'
+title = 'Lempreinte'
 theme = 'hugo-book'
 
 [caches]
