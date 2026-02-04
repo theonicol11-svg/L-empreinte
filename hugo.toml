@@ -1,0 +1,8 @@
+baseURL = 'https://github.com/theonicol11-svg/L-empreinte.git'
+languageCode = 'fr-fr'
+title = 'empreinte'
+theme = 'hugo-book'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
