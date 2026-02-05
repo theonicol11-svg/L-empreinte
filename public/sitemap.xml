@@ -2,12 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://l-empreinte.org/categories/</loc>
+    <loc>http://localhost:1313/theonicol11-svg/L-empreinte.git/posts/brosse_a_dents/</loc>
+    <lastmod>2026-02-04T23:00:42+01:00</lastmod>
   </url><url>
-    <loc>https://l-empreinte.org/</loc>
+    <loc>http://localhost:1313/theonicol11-svg/L-empreinte.git/</loc>
+    <lastmod>2026-02-04T23:00:42+01:00</lastmod>
   </url><url>
-    <loc>https://l-empreinte.org/posts/</loc>
+    <loc>http://localhost:1313/theonicol11-svg/L-empreinte.git/posts/</loc>
+    <lastmod>2026-02-04T23:00:42+01:00</lastmod>
   </url><url>
-    <loc>https://l-empreinte.org/tags/</loc>
+    <loc>http://localhost:1313/theonicol11-svg/L-empreinte.git/posts/my-first-post/</loc>
+    <lastmod>2026-02-04T22:10:31+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/theonicol11-svg/L-empreinte.git/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/theonicol11-svg/L-empreinte.git/tags/</loc>
   </url>
 </urlset>
