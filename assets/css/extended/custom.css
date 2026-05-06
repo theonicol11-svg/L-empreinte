@@ -292,24 +292,51 @@ body:has(#searchbox) .page-header {
     margin-bottom: 15px;
 }
 
+
+/* Conteneur spécifique à la page vote */
+#votebox {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: 40px auto !important;
+    width: 100% !important;
+}
+
 .vote-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+    display: flex !important;
+    flex-direction: row !important; /* Force l'alignement côte à côte */
+    gap: 20px !important;
+    width: 600px !important; /* Largeur identique à ta barre de recherche */
+    max-width: 95vw !important;
+    justify-content: center !important;
 }
 
 .vote-card {
-    flex: 1;
-    background: white;
-    border: 1px solid rgba(0,0,0,0.1);
-    border-radius: 16px;
-    padding: 20px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex: 1 !important; /* Les deux cartes prennent la même place */
+    aspect-ratio: 1 / 1 !important; /* Force la forme carrée */
+    min-height: 180px !important; /* Sécurité pour ne pas être trop petit */
+    background: white !important;
+    border: 1px solid rgba(0,0,0,0.1) !important;
+    border-radius: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05) !important;
+}
+
+/* Sur mobile, on les empile si l'écran est trop étroit */
+@media screen and (max-width: 500px) {
+    .vote-container {
+        flex-direction: column !important;
+        width: 90vw !important;
+    }
+    .vote-card {
+        aspect-ratio: auto !important; /* On retire le carré strict sur mobile pour le confort */
+        padding: 20px !important;
+    }
 }
 
 .vote-card:hover {
@@ -343,12 +370,3 @@ body:has(#searchbox) .page-header {
     border-radius: 20px;
 }
 
-/* Mobile */
-@media screen and (max-width: 600px) {
-    .vote-container {
-        gap: 10px;
-    }
-    .vote-card {
-        padding: 15px 10px;
-    }
-}

@@ -1,0 +1,26 @@
+{{- define "main" }}
+
+
+
+<div id="votebox">
+    <p class="vote-instruction">Quel prochain article voulez-vous voir sur Lempreinte ?</p>
+    <div class="vote-container">
+        <!-- Option A -->
+        <div class="vote-card" onclick="castVote('cafe')">
+            <div class="vote-icon">☕</div>
+            <span class="vote-label">Machine à café</span>
+            <div class="vote-count" id="count-cafe">...</div>
+        </div>
+
+        <!-- Option B -->
+        <div class="vote-card" onclick="castVote('savon')">
+            <div class="vote-icon">🧼</div>
+            <span class="vote-label">Savon</span>
+            <div class="vote-count" id="count-savon">...</div>
+        </div>
+    </div>
+</div>
+
+<script src="/js/vote.js"></script>
+{{- end }}{{/* end main */}}
+

@@ -1,46 +1,66 @@
-const NAMESPACE = "lempreinte-sondage-v1"; // Change de nom pour tester un nouveau compteur
+const API_URL = "https://sheetdb.io/api/v1/y5myrxo97fe49";
 
 async function loadVotes() {
-    const keys = ['cafe', 'chaussures'];
-    
-    for (const key of keys) {
-        try {
-            // Utilisation de countapi.it (plus stable)
-            const response = await fetch(`https://countapi.it/get/${NAMESPACE}/${key}`);
-            const data = await response.json();
-            
-            // Si la clé n'existe pas encore, l'API renvoie parfois une erreur ou 0
-            const value = data.value || 0;
-            document.getElementById(`count-${key}`).innerText = `${value} votes`;
-        } catch (error) {
-            console.error(`Erreur chargement ${key}:`, error);
-            document.getElementById(`count-${key}`).innerText = "0 votes";
-        }
+    try {
+        const response = await fetch(API_URL);
+        const data = await response.json();
+        
+        // On parcourt les données reçues de Google Sheet
+        data.forEach(item => {
+            const countElement = document.getElementById(`count-${item.id}`);
+            if (countElement) {
+                // On s'assure que votes est un nombre, sinon 0
+                countElement.innerText = `${item.votes || 0} votes`;
+            }
+        });
+    } catch (e) {
+        console.error("Erreur de lecture SheetDB:", e);
     }
 }
 
-async function castVote(key) {
-    if (localStorage.getItem(`voted-${NAMESPACE}`)) {
-        alert("Vous avez déjà voté pour ce sondage !");
+async function castVote(id) {
+    if (localStorage.getItem('hasVoted')) {
+        alert("Vous avez déjà voté !");
         return;
     }
 
     try {
-        const response = await fetch(`https://countapi.it/hit/${NAMESPACE}/${key}`);
-        const data = await response.json();
+        // 1. Récupérer la valeur actuelle pour cet ID
+        const res = await fetch(`${API_URL}/search?id=${id}`);
+        const currentData = await res.json();
         
-        document.getElementById(`count-${key}`).innerText = `${data.value} votes`;
-        localStorage.setItem(`voted-${NAMESPACE}`, 'true');
-        
-        // Animation légère pour confirmer le clic
-        const card = document.querySelector(`[onclick="castVote('${key}')"]`);
-        card.style.borderColor = "#00ff00";
-        setTimeout(() => card.style.borderColor = "rgba(0,0,0,0.1)", 1000);
+        if (currentData.length === 0) throw new Error("ID non trouvé");
 
-    } catch (error) {
-        alert("Le service de vote est temporairement indisponible.");
+        const oldVotes = parseInt(currentData[0].votes) || 0;
+        const newVotes = oldVotes + 1;
+
+        // 2. Mettre à jour la ligne dans Google Sheet
+        // SheetDB utilise l'ID dans l'URL pour savoir quelle ligne modifier
+        const updateRes = await fetch(`${API_URL}/id/${id}`, {
+            method: 'PATCH',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                data: { "votes": newVotes }
+            })
+        });
+
+        if (updateRes.ok) {
+            // 3. Mise à jour visuelle si l'API a répondu OK
+            document.getElementById(`count-${id}`).innerText = `${newVotes} votes`;
+            localStorage.setItem('hasVoted', 'true');
+            
+            // Petit feedback visuel
+            const card = document.getElementById(`count-${id}`).parentElement;
+            card.style.borderColor = "#0070e0";
+        }
+
+    } catch (e) {
+        console.error("Erreur lors du vote:", e);
+        alert("Petit problème technique, réessayez !");
     }
 }
 
-// On lance le chargement dès que la page est prête
 document.addEventListener('DOMContentLoaded', loadVotes);

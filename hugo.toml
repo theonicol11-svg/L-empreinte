@@ -51,11 +51,7 @@ layout = "search"
     keys = ["title", "permalink", "summary", "content"]
 
 
-[[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 20
+
 
 [[menu.main]]
     identifier = "search"
@@ -63,3 +59,14 @@ layout = "search"
     url = "/search/"
     weight = 10
 
+[[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "vote"
+    name = "Votez!"
+    url = "/vote/"
+    weight = 30
