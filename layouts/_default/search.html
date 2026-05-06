@@ -24,16 +24,25 @@
     <input id="searchInput" autofocus placeholder="{{ .Params.placeholder | default (printf "%s ↵" .Title) }}"
         aria-label="search" type="search" autocomplete="off" maxlength="64">
     <ul id="searchResults" aria-label="search results"></ul>
-    <div id="search-ad-box">
-        <div class="ad-content">
-            <p class="ad-placeholder">Espace publicitaire disponible</p>
-            <p class="ad-disclaimer">
-                C'est la <strong>seule publicité</strong> de tout le site. <br>
-                Elle finance le projet pour garantir notre indépendance : personne ne paie pour influencer les résultats.
-            </p>
+    <div id="vote-section">
+    <p class="vote-instruction">Quel prochain article voulez-vous voir sur Lempreinte ?</p>
+    <div class="vote-container">
+        <!-- Option A -->
+        <div class="vote-card" onclick="castVote('cafe')">
+            <div class="vote-icon">☕</div>
+            <span class="vote-label">Machine à café</span>
+            <div class="vote-count" id="count-cafe">...</div>
+        </div>
+
+        <!-- Option B -->
+        <div class="vote-card" onclick="castVote('chaussures')">
+            <div class="vote-icon">👟</div>
+            <span class="vote-label">Chaussures</span>
+            <div class="vote-count" id="count-chaussures">...</div>
         </div>
     </div>
 </div>
-
+</div>
+<script src="/js/vote.js"></script>
 {{- end }}{{/* end main */}}
 

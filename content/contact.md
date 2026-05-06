@@ -3,10 +3,27 @@ title: "Contact"
 layout: "page"
 summary: "Contact"
 searchHidden: true
+
+---
+<img src="/images/logo.png" class="img-centered">
+
+### Quel produit choisir pour impacter le moins la planète ?
+
+**L’objectif de Lempreinte** est de vous permettre de trouver, pour chaque catégorie d'objet (voiture, produit du quotidien, électronique, etc.), la version la plus respectueuse de l'environnement.
+
+**Une rigueur scientifique contre le greenwashing**
+Nous utilisons exclusivement l'Analyse de Cycle de Vie (ACV). Cette méthode scientifique analyse l'impact total d'un objet de l'extraction des matières premières à sa fin de vie.
+
+**Une indépendance totale**
+Aucune marque ne peut payer pour améliorer sa note ou modifier son classement.
+Nous ne percevons aucune rémunération sur vos achats (pas d'affiliation).
+Le site est exclusivement financé par l’espace publicitaire de la page d’accueil.
+
+
 ---
 ### Vous avez une question, une remarque ?
----
-*Utilisez le formulaire ci-dessous pour nous transmettre votre demande, nous vous répondrons dans les plus brefs délais.*
+
+
 <form action="https://formspree.io/f/mykdalqj" method="POST" style="display: grid; gap: 20px; max-width: 600px; margin: 30px 0;">
   
   <input type="hidden" name="subject" value="Particulier">
@@ -19,7 +36,7 @@ searchHidden: true
 
   <div style="display: flex; flex-direction: column; gap: 8px;">
     <label style="font-weight: bold; font-size: 0.9rem;">Votre message :</label>
-    <textarea name="message" placeholder="Décrivez votre projet d'ACV ici..." required 
+    <textarea name="message" placeholder="Utilisez ce formulaire pour nous transmettre votre demande (vos données sont utilisées uniquement pour vous répondre)." required 
       style="width: 100%; min-height: 150px; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--code-bg); color: var(--content); outline: none; font-family: inherit;"></textarea>
   </div>
 
@@ -30,6 +47,4 @@ searchHidden: true
 
 </form>
 
----
 
-*Vos données sont utilisées uniquement pour vous répondre et ne sont jamais partagées.*

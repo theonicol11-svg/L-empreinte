@@ -15,5 +15,3 @@ draft: false
 
 
 
----
-Une question ou une remarque ? [Contactez nous]({{< relref "contact.md" >}})

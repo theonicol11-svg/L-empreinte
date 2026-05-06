@@ -52,9 +52,9 @@ layout = "search"
 
 
 [[menu.main]]
-    identifier = "lempreinte"
-    name = "L'entreprise"
-    url = "/lempreinte/"
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
     weight = 20
 
 [[menu.main]]
@@ -63,8 +63,3 @@ layout = "search"
     url = "/search/"
     weight = 10
 
-[[menu.main]]
-    identifier = "acv"
-    name = "Réaliser une ACV"
-    url = "/acv/"
-    weight = 30

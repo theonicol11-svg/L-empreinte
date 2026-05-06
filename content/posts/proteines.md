@@ -1,5 +1,5 @@
 ---
-title: "Proteines"
+title: "Protéines"
 date: 2026-02-15T19:45:13+01:00
 draft: false
 max_impact: 31.7
