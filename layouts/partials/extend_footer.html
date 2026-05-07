@@ -6,9 +6,9 @@
     const ctx = cv.getContext('2d');
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
     
-    let W, H, COLS, ROWS, g;
-    // On définit une taille de cellule cible (en pixels)
-    const CELL_SIZE = 15; 
+    let W, H, levels; // levels est maintenant dynamique
+    const COLS = 100, ROWS = 60; 
+    const g = new Float32Array((COLS + 1) * (ROWS + 1));
 
     function resize() {
         W = window.innerWidth;
@@ -16,15 +16,10 @@
         cv.width = W * dpr;
         cv.height = H * dpr;
         ctx.scale(dpr, dpr);
-
-        // CALCUL DYNAMIQUE DU NOMBRE DE LIGNES ET COLONNES
-        COLS = Math.ceil(W / CELL_SIZE);
-        ROWS = Math.ceil(H / CELL_SIZE);
         
-        // On ré-alloue le tableau de données à la nouvelle taille
-        g = new Float32Array((COLS + 1) * (ROWS + 1));
+        // Ajustement dynamique ici
+        levels = Math.max(6, Math.min(18, Math.floor(W / 90)));
     }
-    
     window.addEventListener('resize', resize);
     resize();
 
@@ -59,10 +54,8 @@
         ctx.fillRect(0, 0, W, H);
 
         let lo = Infinity, hi = -Infinity;
-        // On remplit la grille dynamique
         for (let j = 0; j <= ROWS; j++) {
             for (let i = 0; i <= COLS; i++) {
-                // On normalise i et j par rapport aux dimensions dynamiques
                 const v = field(i / COLS, j / ROWS, time);
                 g[j * (COLS + 1) + i] = v;
                 if (v < lo) lo = v;
@@ -72,10 +65,10 @@
 
         ctx.strokeStyle = 'rgba(35,35,30,0.08)'; 
         ctx.lineWidth = 0.8;
-        const LEVELS = 15;
 
-        for (let l = 1; l < LEVELS; l++) {
-            const lv = lo + (l / LEVELS) * (hi - lo);
+        // On utilise "levels" calculé dynamiquement
+        for (let l = 1; l < levels; l++) {
+            const lv = lo + (l / levels) * (hi - lo);
             ctx.beginPath();
             for (let j = 0; j < ROWS; j++) {
                 for (let i = 0; i < COLS; i++) {
@@ -86,14 +79,9 @@
                     const code = (v00 > lv ? 8 : 0) | (v10 > lv ? 4 : 0) | (v11 > lv ? 2 : 0) | (v01 > lv ? 1 : 0);
                     if (code === 0 || code === 15) continue;
 
-                    // Les coordonnées réelles utilisent maintenant W et H divisés par les ratios dynamiques
                     const x0 = i / COLS * W, y0 = j / ROWS * H;
                     const x1 = (i + 1) / COLS * W, y1 = (j + 1) / ROWS * H;
-                    
-                    const T = [lerp(x0, x1, ei(v00, v10, lv)), y0], 
-                          R = [x1, lerp(y0, y1, ei(v10, v11, lv))], 
-                          B = [lerp(x0, x1, ei(v01, v11, lv)), y1], 
-                          L = [x0, lerp(y0, y1, ei(v00, v01, lv))];
+                    const T = [lerp(x0, x1, ei(v00, v10, lv)), y0], R = [x1, lerp(y0, y1, ei(v10, v11, lv))], B = [lerp(x0, x1, ei(v01, v11, lv)), y1], L = [x0, lerp(y0, y1, ei(v00, v01, lv))];
 
                     let segments = [];
                     switch (code) {
