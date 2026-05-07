@@ -2,13 +2,13 @@
 title: "Protéines"
 date: 2026-02-15T19:45:13+01:00
 draft: false
-max_impact: 31.7
 # bookComments: false
 # bookSearchExclude: false
 # bookPostThumbnail: thumbnail.*
 ---
 
-## Quelle source de protéine est la moins polluante ? 
+## Quelle <span class="objet-focus">protéine</span> est la moins polluante ?
+
 Pour une même quantitée de protéine pour chaque aliments
 
 {{< impact_V3 nom="Haricot rouge (cuit)" valeur="1.0" poids="0,000693665628245067 kg CO2eq" details="Champion de l'efficacité ; culture fixatrice d'azote nécessitant très peu d'engrais par gramme de protéine." lien="https://agribalyse.ademe.fr/app/aliments/20503#Haricot_rouge,_cuit" >}}
@@ -38,5 +38,32 @@ Pour une même quantitée de protéine pour chaque aliments
 
 
 
----
-Une question ou une remarque ? [Contactez nous]({{< relref "contact.md" >}})
+{{% detail title="+ d'informations sur les résultats" %}}
+
+
+Les résultats présentés sont calculés à partir de deux sources officielles.
+
+Empreinte environnementale : Données d'émissions (en kg CO2eq) issues de [la base Agribalyse v3.1 (ADEME)](https://agribalyse.ademe.fr/app), couvrant le cycle de vie "du champ à l'assiette".
+
+Valeurs nutritionnelles : Teneur en protéines pour 100g issue de [la table de composition nutritionnelle CIQUAL (ANSES)](https://ciqual.anses.fr/).
+
+
+
+L'impact réel peut s'écarter de ces moyennes selon plusieurs paramètres techniques.
+
+Pratiques agricoles et intrants : L'utilisation de pesticides et d'engrais azotés influence le score environnemental. Les engrais sont une source majeure de protoxyde d'azote, un gaz à effet de serre bien plus puissant que le CO2.
+
+Origine de la nourriture animale : Pour la viande et les produits laitiers, l'empreinte dépend de l'origine des fourrages (pâturages locaux vs soja importé issu de zones déforestées).
+
+Systèmes d'élevage : La gestion des effluents et le type de logement des animaux modifient les émissions de méthane et d'ammoniac.
+
+Pertes à la cuisson : Les valeurs intègrent des moyennes de perte de masse. Une réduction importante du poids final à la cuisson concentre l'impact au gramme de protéine restant.
+
+Assimilation nutritionnelle : Le calcul traite tous les grammes de protéines comme équivalents. En nutrition, l'indice d'assimilation (score DIAAS) varie : les protéines animales sont généralement plus facilement assimilables que les protéines végétales.
+
+Indicateurs de biodiversité : Ce classement se focalise sur le carbone. L'impact sur la vie des sols ou la toxicité pour les écosystèmes (liée aux pesticides) peut varier selon les modes de culture.
+
+
+Au-delà de la nature de la protéine, le mode de production est déterminant. Pour minimiser l'empreinte réelle, il est conseillé de privilégier une consommation locale et de favoriser des circuits respectant l'environnement (agriculture biologique), qui limitent l'usage de produits de synthèse et préservent la santé des sols.
+
+{{% /detail %}}

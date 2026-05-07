@@ -6,10 +6,16 @@ draft: false
 # bookPostThumbnail: thumbnail.*
 ---
 
-## Quel Titre est le moins impactant ?
-
-{{< note nom="NOM_PRODUIT" valeur="0" lien="URL_ETUDE" >}}
+## Quelle <span class="objet-focus">brosse à dents</span> est la moins polluante ?
 
 
----
-[Une question ou une remarque ? Cliquez ici]({{< relref "contact.md" >}})
+IMPACT3
+
+
+
+{{% detail title="+ d'informations sur les résultats" %}}
+
+
+INFORMATIONS COMP
+
+{{% /detail %}}

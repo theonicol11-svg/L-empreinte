@@ -196,6 +196,61 @@ body:has(#searchbox) .page-header {
     }
 }
 
+/* La couleur de l'objet mis en avant dans tes titres */
+.objet-focus {
+    color: #5295d8;
+    font-weight: bold; /* Optionnel : pour bien faire ressortir l'objet */
+}
+
+/* ======= La partie plus d'infos
+
+/* Style du conteneur global */
+.custom-details {
+    margin-top: 40px;      /* Ajoute plus de marge au-dessus du container */
+    margin-bottom: 20px;
+    width: 100%;
+    background: none !important; /* Supprime le fond blanc forcé par le thème */
+    border: none !important;     /* Supprime la bordure ou l'ombre portée */
+    box-shadow: none !important; /* Supprime l'ombre si elle existe */
+}
+
+/* Style du titre (le résumé cliquable) */
+.details-summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #5295d8;
+    text-align: center;
+    list-style: none;
+    outline: none;
+    margin-bottom: 20px; /* Ajoute de l'espace SOUS le titre (+ d'infos) */
+}
+
+/* Style du texte à l'intérieur */
+.details-content {
+    margin-top: 20px;    /* Espace entre le titre et le début du texte */
+    text-align: left;    /* On remet le texte à gauche pour la lecture */
+    padding: 0 10px;     /* Petite marge interne sur les côtés */
+}
+
+/* Ajout d'une flèche personnalisée */
+.details-summary::before {
+    content: "▶ ";
+    font-size: 0.8em;
+    margin-right: 5px;
+    transition: transform 0.3s;
+    display: inline-block;
+}
+
+/* Rotation de la flèche */
+.custom-details[open] .details-summary::before {
+    transform: rotate(90deg);
+}
+
+/* Nettoyage pour Chrome/Safari */
+.details-summary::-webkit-details-marker {
+    display: none;
+}
+
 /* ============================================================
    9. Style pour les images centrées dans le texte
    ============================================================ */
@@ -263,7 +318,7 @@ body:has(#searchbox) .page-header {
 .read-more {
     font-size: 0.8rem;
     font-weight: 600;
-    color: #0070e0; /* Un bleu discret pour l'action */
+    color: #5295d8; /* Un bleu discret pour l'action */
     margin-top: auto;
 }
 

@@ -1,0 +1,7 @@
+<details class="custom-details">
+    <summary class="details-summary">
+        {{ .Get "title" | default "+ d'informations sur les résultats" }}
+    </summary>
+    <div class="details-content">  {{ .Inner | markdownify }}
+    
+</details>
