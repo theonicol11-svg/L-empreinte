@@ -8,15 +8,16 @@ draft: false
 
 ## Quel type de <span class="objet-focus">café</span> est le moins polluant ?
 
-
-{{< impact_V3 nom="Soluble" valeur="1.0" poids="109g CO2eq par tasse de 280ml" details="C’est l’option la plus sobre car elle nécessite peu de café par tasse et réduit l'énergie liée au transport grâce à sa légèreté." lien="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196648" >}}
-{{< impact_V3 nom="Infusé - presse française" valeur="1.1" poids="125g CO2eq par tasse de 280ml" details="Son empreinte est élevée car il mène souvent à préparer trop de café et à chauffer plus d’eau que nécessaire." lien="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196648" >}}
-{{< impact_V3 nom="Capsule" valeur="1.2" poids="127g CO2eq par tasse de 280ml" details="Malgré l’emballage, sa précision évite le gaspillage d’eau et de café, ce qui compense souvent l’impact de sa fabrication et son recyclage." lien="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196648" >}}
-{{< impact_V3 nom="Filtre traditionnel" valeur="1.6" poids="172g CO2eq par tasse de 280ml" details="C’est le format le plus gourmand en ressources, car il nécessite une grande quantité de grains pour un rendu optimal." lien="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196648" >}}
+{{< impact_V5 nom="Soluble" valeur="1.0" p1="1.3" p2="2" poids="119,5g CO2eq" details="Le remplacement de la tête seule réduit drastiquement la masse de plastique jetée, offrant le meilleur équilibre entre faible empreinte carbone et usage des terres." lien="https://www.transitionsenergies.com/empreinte-carbone-cafe-attention-idees-recues/">}}
+{{< impact_V5 nom="Infusé" valeur="1.1" p1="1.3" p2="2" poids="136g CO2eq" details="Matériau biosourcé qui évite le plastique fossile, mais dont l'impact est alourdi par l'utilisation de surfaces agricoles et le transport international." lien="https://www.transitionsenergies.com/empreinte-carbone-cafe-attention-idees-recues/">}}
+{{< impact_V5 nom="Capsule" valeur="1.1" p1="1.3" p2="2" poids="127,5g CO2eq" details="Modèle de pollution linéaire générant un volume de déchets important et une forte dépendance aux énergies fossiles pour chaque unité produite." lien="https://www.transitionsenergies.com/empreinte-carbone-cafe-attention-idees-recues/">}}
+{{< impact_V5 nom="filtre" valeur="1.6" p1="1.3" p2="2" poids="189g CO2eq" details="Impact environnemental massif dû à la fabrication des composants électroniques et de la batterie, dépassant de loin les modèles manuels." lien="https://www.transitionsenergies.com/empreinte-carbone-cafe-attention-idees-recues/">}}
 
 
 
 {{% detail title="+ d'informations sur les résultats" %}}
+
+Date des données : 2023
 
 
 L’impact environnemental d’une tasse de café ne se résume pas à son contenant. . L'Analyse de Cycle de Vie (ACV) montre que l'essentiel de la pollution se joue avant même que le café n'arrive dans votre cuisine.

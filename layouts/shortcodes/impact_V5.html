@@ -1,0 +1,61 @@
+{{ $val := .Get "valeur" | float }}
+{{ $p1 := .Get "p1" | float }}
+{{ $p2 := .Get "p2" | float }}
+
+{{/* Détermination de la couleur selon les paliers manuels */}}
+{{ $color := "#e74c3c" }}{{/* Rouge par défaut (si > p2) */}}
+{{ if lt $val $p1 }}
+    {{ $color = "#2ecc71" }}{{/* Vert si < p1 */}}
+{{ else if lt $val $p2 }}
+    {{ $color = "#f1c40f" }}{{/* Orange si entre p1 et p2 */}}
+{{ end }}
+
+{{ $nbCarres := math.Ceil $val }}
+
+<div class="impact-container" style="margin-bottom: 16px;">
+    <details style="background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 12px; overflow: hidden; transition: all 0.3s ease;">
+        
+        <summary style="list-style: none; cursor: pointer; padding: 18px; display: flex; align-items: center; position: relative; min-height: 85px;">
+            <div style="padding-right: 100px;"> 
+                <strong style="font-size: 1.1em; color: #2d3436; display: block; margin-bottom: 8px; line-height: 1.2;">
+                    {{ .Get "nom" }}
+                </strong>
+                <div style="display: flex; gap: 4px; flex-wrap: wrap;">
+                    {{ range seq $nbCarres }}
+                        <div style="width: 10px; height: 10px; border-radius: 2px; background-color: {{ $color }};"></div>
+                    {{ end }}
+                </div>
+            </div>
+
+            <div style="position: absolute; right: 18px; top: 50%; transform: translateY(-50%); text-align: right; width: 90px;">
+                <div style="line-height: 1;">
+                    <div style="font-weight: 900; font-size: 1.8em; color: {{ $color }};">
+                        {{ if le $val 1.0 }}
+                            <span style="font-size: 0.8em;">LE TOP</span>
+                        {{ else }}
+                            <small style="font-size: 0.5em; vertical-align: middle;">×</small>{{ $val }}
+                        {{ end }}
+                    </div>
+                    <div style="font-size: 0.8em; font-weight: 700; color: #b2bec3; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px;">
+                        {{ if le $val 1.0 }}REFERENCE{{ else }}IMPACT{{ end }}
+                    </div>
+                </div>
+            </div>
+        </summary>
+
+        <div style="padding: 0 18px 18px 18px; border-top: 1px solid #eee; font-size: 0.95em; color: #636e72;">
+            <div style="margin-top: 15px;">
+                <p><strong>Note réelle :</strong> {{ .Get "poids" }}</p>
+                <p style="margin: 10px 0;">{{ .Get "details" }}</p>
+                <a href="{{ .Get "lien" | default "#" }}" target="_blank" style="display: inline-block; margin-top: 10px; color: #0984e3; text-decoration: underline; font-weight: bold;">
+                    Consulter l'étude ACV complète →
+                </a>
+            </div>
+        </div>
+    </details>
+</div>
+
+<style>
+    summary::-webkit-details-marker { display: none; }
+    details[open] { background-color: #ffffff !important; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+</style>

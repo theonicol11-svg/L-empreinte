@@ -6,14 +6,16 @@ draft: false
 # bookPostThumbnail: thumbnail.*
 ---
 
-## <span class="objet-focus">IA </span> ou <span class="objet-focus">recherche Google </span> qui est le plus polluant ?
+## <span class="objet-focus">IA </span> ou <span class="objet-focus">recherche Google </span>, qui est le plus polluant ?
 
 
-{{< impact_V3 nom="Recherche sur google" valeur="1.0" poids="0,3Wh" details="Une recherche classique indexe des informations déjà existantes, nécessitant une puissance de calcul minimale." lien="https://iea.blob.core.windows.net/assets/18f3ed24-4b26-4c83-a3d2-8a1be51c8cc8/Electricity2024-Analysisandforecastto2026.pdf" >}}
-{{< impact_V3 nom="Recherche sur ChatGPT" valeur="9.7" poids="2,9Wh" details="Contrairement au moteur de recherche, l'IA génère une réponse unique en temps réel. Ce processus de calcul intensif par GPU consomme environ 10 fois plus d'énergie par requête." lien="https://iea.blob.core.windows.net/assets/18f3ed24-4b26-4c83-a3d2-8a1be51c8cc8/Electricity2024-Analysisandforecastto2026.pdf" >}}
+{{< impact_V5 nom="Recherche sur google" valeur="1.0" p1="2" p2="3" poids="0,3Wh" details="Une recherche classique indexe des informations déjà existantes, nécessitant une puissance de calcul minimale." lien="1">}}
+{{< impact_V5 nom="Recherche sur ChatGPT" valeur="9.7" p1="2" p2="3" poids="2,9Wh" details="Contrairement au moteur de recherche, l'IA génère une réponse unique en temps réel. Ce processus de calcul intensif par GPU consomme environ 10 fois plus d'énergie par requête." lien="9,66666666666667">}}
 
 
 {{% detail title="+ d'informations sur les résultats" %}}
+
+Date des données : 2024
 
 Aux États-Unis, on estime que l'expansion de l'IA sera responsable de 50 % de la croissance de la demande électrique totale d'ici 2030 <a href="https://iea.blob.core.windows.net/assets/18f3ed24-4b26-4c83-a3d2-8a1be51c8cc8/Electricity2024-Analysisandforecastto2026.pdf" style="color: #0070e0;">(Electricity 2024 - Analysis and forecast to 2026)</a>. Et la consomation électrique n'est que la face visible de l'impact.
 
