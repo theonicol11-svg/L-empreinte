@@ -6,7 +6,7 @@ draft: false
 # bookPostThumbnail: thumbnail.*
 ---
 
-## <span class="objet-focus">IA </span> ou <span class="objet-focus">recherche Google </span>, qui est le plus polluant ?
+## <span class="objet-focus">CHATGPT </span> ou <span class="objet-focus">recherche Google </span>, qui est le plus polluant ?
 
 
 {{< impact_V5 nom="Recherche sur google" valeur="1.0" p1="2" p2="3" poids="0,3Wh" details="Une recherche classique indexe des informations déjà existantes, nécessitant une puissance de calcul minimale." lien="1">}}

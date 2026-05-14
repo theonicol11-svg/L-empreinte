@@ -43,9 +43,9 @@ Pour une même quantitée de protéine pour chaque aliments
 
 Les résultats présentés sont calculés à partir de deux sources officielles.
 
-Empreinte environnementale : Données d'émissions (en kg CO2eq) issues de [la base Agribalyse v3.1 (ADEME)](https://agribalyse.ademe.fr/app), couvrant le cycle de vie "du champ à l'assiette".
+Empreinte environnementale : Données d'émissions (en kg CO2eq) issues de <a href="https://agribalyse.ademe.fr/app" style="color: #0070e0;"> (la base Agribalyse v3.1 (ADEME))</a>.
 
-Valeurs nutritionnelles : Teneur en protéines pour 100g issue de [la table de composition nutritionnelle CIQUAL (ANSES)](https://ciqual.anses.fr/).
+Valeurs nutritionnelles : Teneur en protéines pour 100g issue de <a href="https://ciqual.anses.fr/" style="color: #0070e0;"> (la table de composition nutritionnelle CIQUAL (ANSES))</a>
 
 
 
