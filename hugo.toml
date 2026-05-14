@@ -65,8 +65,3 @@ layout = "search"
     url = "/contact/"
     weight = 20
 
-[[menu.main]]
-    identifier = "vote"
-    name = "Votez!"
-    url = "/vote/"
-    weight = 30

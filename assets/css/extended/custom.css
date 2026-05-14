@@ -425,3 +425,16 @@ body:has(#searchbox) .page-header {
     border-radius: 20px;
 }
 
+/* ============================================================
+   12. La bare d'onglet en haut à droite
+   ============================================================ */
+
+/* Cible spécifiquement le lien de recherche par son URL */
+a[href$="/search/"] {
+    color: #0070e0 !important; /* Le bleu de ton site */        /* Optionnel : pour le faire ressortir davantage */
+}
+
+/* Optionnel : changer la couleur au survol */
+a[href$="/search/"]:hover {
+    color: #000000 !important;
+}
