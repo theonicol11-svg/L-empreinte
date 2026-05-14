@@ -1,6 +1,7 @@
 ---
 title: "Cafés"
 draft: false
+search_keywords: ["Machine à café"]
 # bookComments: false
 # bookSearchExclude: false
 # bookPostThumbnail: thumbnail.*

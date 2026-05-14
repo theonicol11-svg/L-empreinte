@@ -1,6 +1,7 @@
 ---
-title: "IA vs recherche Google"
+title: "CHATGPT vs recherche Google"
 draft: false
+search_keywords: ["intelligence", "artificielle", "IA"]
 # bookComments: false
 # bookSearchExclude: false
 # bookPostThumbnail: thumbnail.*
