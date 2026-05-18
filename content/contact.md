@@ -9,9 +9,9 @@ searchHidden: true
 
 ### Quel produit choisir pour impacter le moins la planète ?
 
-**L’objectif de Lempreinte** est de vous permettre de trouver, pour chaque catégorie d'objet (voiture, produit du quotidien, électronique, etc.), la version la plus respectueuse de l'environnement.
+**L’objectif de Lempreinte** est de vous permettre de trouver, pour chaque catégorie d'objet (voiture, produit du quotidien, électronique, etc.), la version la plus respectueuse de l'environnement. Nous utilisons exclusivement l'Analyse de Cycle de Vie (ACV). Cette méthode scientifique analyse l'impact total d'un objet de l'extraction des matières premières à sa fin de vie.
 
-**Une rigueur scientifique contre le greenwashing**
+**Vous êtes une marque ? Confiez-nous L’ACV de votre produit.**
 Nous utilisons exclusivement l'Analyse de Cycle de Vie (ACV). Cette méthode scientifique analyse l'impact total d'un objet de l'extraction des matières premières à sa fin de vie.
 
 **Une indépendance totale**
