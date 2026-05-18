@@ -60,8 +60,8 @@ layout = "search"
     weight = 10
 
 [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
+    identifier = "ACV/contact"
+    name = "ACV/Contact"
     url = "/contact/"
     weight = 20
 
