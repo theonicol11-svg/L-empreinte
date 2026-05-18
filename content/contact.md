@@ -1,7 +1,7 @@
 ---
 title: "ACV/Contact"
 layout: "page"
-summary: "ACV/Contact"
+summary: "ACV/Contatc"
 searchHidden: true
 
 ---
@@ -21,6 +21,9 @@ Lempreinte accompagne les entreprises et les marques engagées dans l'évaluatio
 | **Données certifiées** <br><small>(Ecoinvent & Base Empreinte de l'ADEME)</small> | ✔ | ✔ |
 | **Validation par un tiers** <br><small>(Obligatoire pour la communication)</small> | | ✔ |
 | **Communication publique**  <br><small>(Autorisé)</small> | | ✔  |
+
+⚠️ **Indépendance éditoriale :** 
+La réalisation d'une ACV est une prestation d'étude technique totalement distincte de notre activité de média. Elle n’entraîne en aucun cas la publication d'un article sur notre site. Lempreinte n'est jamais rémunéré pour mettre en avant une marque.
 
 ---
 
