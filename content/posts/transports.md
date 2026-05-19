@@ -7,6 +7,7 @@ draft: false
 ---
 
 ## Quel type de <span class="objet-focus">transport</span> est le moins polluant ?
+Pour une même distance.
 
 {{< impact_V5 nom="Marche" valeur="1" p1="100" p2="400" poids="0kg CO2eq pour un trajet de 100 km" details="Impact nul, c’est le mode de déplacement le plus naturel et le plus sobre pour la santé et la planète." lien="https://impactco2.fr/outils/transport">}}
 {{< impact_V5 nom="Vélo mécanique" valeur="1" p1="100" p2="400" poids="0,02kg CO2eq pour un trajet de 100 km" details="Champion de l'Analyse de Cycle de Vie (ACV), son empreinte est quasi inexistante, limitée à sa fabrication très légère." lien="https://impactco2.fr/outils/transport">}}
