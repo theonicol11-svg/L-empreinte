@@ -5,6 +5,7 @@ defaultContentLanguage = 'fr'
 title = 'Lempreinte'
 theme = 'PaperMod'
 
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
@@ -29,6 +30,9 @@ theme = 'PaperMod'
   defaultTheme = "light"
   # Désactive le bouton de changement de mode
   disableThemeToggle = true
+
+[params.assets]
+    favicon = "/images/logo.png" # Ajout du favicon pour l'onglet du navigateur
   
 [params.label]
     text = "Lempreinte" # Le texte qui restera à côté du logo
