@@ -33,6 +33,7 @@ theme = 'PaperMod'
 
 [params.assets]
     favicon = "/images/logo.png" # Ajout du favicon pour l'onglet du navigateur
+    apple_touch_icon = "/images/logo.png"
   
 [params.label]
     text = "Lempreinte" # Le texte qui restera à côté du logo
