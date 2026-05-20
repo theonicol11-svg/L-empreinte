@@ -9,10 +9,10 @@ search_keywords: ["Machine à café"]
 
 ## Quel type de <span class="objet-focus">café</span> est le moins polluant ?
 
-{{< impact_V5 nom="Soluble" valeur="1.0" p1="1.3" p2="2" poids="119,5g CO2eq" details="Le remplacement de la tête seule réduit drastiquement la masse de plastique jetée, offrant le meilleur équilibre entre faible empreinte carbone et usage des terres." lien="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196648">}}
-{{< impact_V5 nom="Infusé" valeur="1.1" p1="1.3" p2="2" poids="136g CO2eq" details="Matériau biosourcé qui évite le plastique fossile, mais dont l'impact est alourdi par l'utilisation de surfaces agricoles et le transport international." lien="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196649">}}
-{{< impact_V5 nom="Capsule" valeur="1.1" p1="1.3" p2="2" poids="127,5g CO2eq" details="Modèle de pollution linéaire générant un volume de déchets important et une forte dépendance aux énergies fossiles pour chaque unité produite." lien="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196650">}}
-{{< impact_V5 nom="filtre" valeur="1.6" p1="1.3" p2="2" poids="189g CO2eq" details="Impact environnemental massif dû à la fabrication des composants électroniques et de la batterie, dépassant de loin les modèles manuels." lien="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196651">}}
+{{< impact_V5 nom="Soluble" valeur="1.0" p1="1.3" p2="2" poids="119,5g CO2eq" details="C’est l’option la plus sobre car elle nécessite peu de café par tasse et réduit l'énergie liée au transport grâce à sa légèreté." lien="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196648">}}
+{{< impact_V5 nom="Infusé" valeur="1.1" p1="1.3" p2="2" poids="136g CO2eq" details="Son empreinte est élevée car il mène souvent à préparer trop de café et à chauffer plus d’eau que nécessaire." lien="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196649">}}
+{{< impact_V5 nom="Capsule" valeur="1.1" p1="1.3" p2="2" poids="127,5g CO2eq" details="Si la capsule génère des déchets, elle agit comme un limiteur de pollution en empêchant le surdosage de café, une ressource dont la production est très coûteuse pour l'environnement, et d'eau." lien="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196650">}}
+{{< impact_V5 nom="filtre" valeur="1.6" p1="1.3" p2="2" poids="189g CO2eq" details="C’est le format le plus gourmand en ressources, car il nécessite une grande quantité de grains pour un rendu optimal." lien="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196651">}}
 
 
 
