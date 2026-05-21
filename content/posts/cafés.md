@@ -18,8 +18,7 @@ search_keywords: ["Machine à café"]
 
 {{% detail title="source" %}}
 
-Date des données : 2023
-Source : <a href="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196648" style="color: #0070e0;">(Marty et al. 2023)</a>
+Source : <a href="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196648" style="color: #0070e0;">Marty et al. 2023</a>
 
 L’impact environnemental d’une tasse de café ne se résume pas à son contenant. . L'Analyse de Cycle de Vie (ACV) montre que l'essentiel de la pollution se joue avant même que le café n'arrive dans votre cuisine.
 
