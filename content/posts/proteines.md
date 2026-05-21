@@ -38,7 +38,7 @@ Pour une même quantitée de protéine pour chaque aliments
 
 
 
-{{% detail title="+ d'informations sur les résultats" %}}
+{{% detail title="source" %}}
 
 
 Les résultats présentés sont calculés à partir de deux sources officielles.

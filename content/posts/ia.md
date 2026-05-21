@@ -14,7 +14,7 @@ search_keywords: ["intelligence", "artificielle", "IA"]
 {{< impact_V5 nom="Recherche sur ChatGPT" valeur="9.7" p1="2" p2="3" poids="2,9Wh" details="Contrairement au moteur de recherche, l'IA génère une réponse unique en temps réel. Ce processus de calcul intensif par GPU consomme environ 10 fois plus d'énergie par requête." lien="https://iea.blob.core.windows.net/assets/18f3ed24-4b26-4c83-a3d2-8a1be51c8cc8/Electricity2024-Analysisandforecastto2026.pdf">}}
 
 
-{{% detail title="+ d'informations sur les résultats" %}}
+{{% detail title="source" %}}
 
 Date des données : 2024
 Source : <a href="https://iea.blob.core.windows.net/assets/18f3ed24-4b26-4c83-a3d2-8a1be51c8cc8/Electricity2024-Analysisandforecastto2026.pdf" style="color: #0070e0;">(Electricity 2024 - Analysis and forecast to 2026)</a>

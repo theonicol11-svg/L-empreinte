@@ -16,7 +16,7 @@ search_keywords: ["Machine à café"]
 
 
 
-{{% detail title="+ d'informations sur les résultats" %}}
+{{% detail title="source" %}}
 
 Date des données : 2023
 Source : <a href="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196648" style="color: #0070e0;">(Marty et al. 2023)</a>

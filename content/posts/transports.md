@@ -29,7 +29,7 @@ Pour une même distance.
 {{< impact_V5 nom="Moto" valeur="1085" p1="100" p2="400" poids="21,7kg CO2eq pour un trajet de 100 km" details="Un ratio poids/pollution très défavorable, avec des émissions de CO2 souvent supérieures à une petite voiture moderne." lien="https://librairie.ademe.fr/mobilite-et-transports/3959-transports-et-mobilite-2020-2023-9791029716690.html#">}}
 {{< impact_V5 nom="Avion " valeur="1125" p1="100" p2="400" poids="22,5kg CO2eq pour un trajet de 100 km" details="L'impact le plus lourd de cette liste, dont les émissions en haute altitude aggravent l'effet de serre." lien="https://librairie.ademe.fr/mobilite-et-transports/3959-transports-et-mobilite-2020-2023-9791029716690.html#">}}
 
-{{% detail title="+ d'informations sur les résultats" %}}
+{{% detail title="source" %}}
 
 Source : <a href="https://librairie.ademe.fr/mobilite-et-transports/3959-transports-et-mobilite-2020-2023-9791029716690.html#" style="color: #0070e0;">(Ademe)</a>.
 

@@ -16,7 +16,7 @@ draft: false
 
 
 
-{{% detail title="+ d'informations sur les résultats" %}}
+{{% detail title="source" %}}
 
 Date des données : 2020
 Source : <a href="https://www.nature.com/articles/s41415-020-1981-0" style="color: #0070e0;">(Lyne et al. 2020)</a>
