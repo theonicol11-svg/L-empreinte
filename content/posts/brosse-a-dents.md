@@ -19,8 +19,7 @@ draft: false
 {{% detail title="+ d'informations sur les résultats" %}}
 
 Date des données : 2020
-
-Les chiffres présentés ci-dessus sont issus de [l'étude de Lyne et al. (2020) Combining evidence-based healthcare with environmental sustainability: using the toothbrush as a model](https://www.nature.com/articles/s41415-020-1981-0). *British Dental Journal*.
+Source : <a href="https://www.nature.com/articles/s41415-020-1981-0" style="color: #0070e0;">(Lyne et al. 2020)</a>
 
 L'analyse a été réalisée sur une période de 5 ans d'utilisation, incluant la fabrication, le transport et l'élimination des brosses nécessaires sur cette durée. Comme toute Analyse de Cycle de Vie (ACV), il existe des incertitudes. Certaines données ont été estimées lorsque les fabricants ne partageaient pas leurs secrets de fabrication. 
 

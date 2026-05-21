@@ -17,6 +17,7 @@ search_keywords: ["intelligence", "artificielle", "IA"]
 {{% detail title="+ d'informations sur les résultats" %}}
 
 Date des données : 2024
+Source : <a href="https://iea.blob.core.windows.net/assets/18f3ed24-4b26-4c83-a3d2-8a1be51c8cc8/Electricity2024-Analysisandforecastto2026.pdf" style="color: #0070e0;">(Electricity 2024 - Analysis and forecast to 2026)</a>
 
 Aux États-Unis, on estime que l'expansion de l'IA sera responsable de 50 % de la croissance de la demande électrique totale d'ici 2030 <a href="https://iea.blob.core.windows.net/assets/18f3ed24-4b26-4c83-a3d2-8a1be51c8cc8/Electricity2024-Analysisandforecastto2026.pdf" style="color: #0070e0;">(Electricity 2024 - Analysis and forecast to 2026)</a>. Et la consomation électrique n'est que la face visible de l'impact.
 
