@@ -25,5 +25,36 @@
         aria-label="search" type="search" autocomplete="off" maxlength="64">
     <ul id="searchResults" aria-label="search results"></ul>
 </div>
-{{- end }}{{/* end main */}}
 
+<div id="latest-articles" class="related-wrapper" style="margin-top: 40px;">
+    <h3 class="related-title">Nos derniers articles :</h3>
+    <div class="related-grid">
+        {{- /* On récupère les 3 derniers articles du dossier 'content' */ -}}
+        {{- range first 4 (where .Site.RegularPages "Type" "in" (slice "posts" "post")) }}
+        <a href="{{ .Permalink }}" class="related-card" style="text-decoration: none; color: inherit;">
+            <h4>{{ .Title }}</h4>
+            <p>{{ .Summary | truncate 120 }}</p>
+            <span class="read-more">Lire l'article →</span>
+        </a>
+        {{- end }}
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const searchInput = document.getElementById("searchInput");
+        const latestArticles = document.getElementById("latest-articles");
+
+        if (searchInput && latestArticles) {
+            searchInput.addEventListener("input", function() {
+                if (this.value.trim().length > 0) {
+                    latestArticles.style.display = "none";
+                } else {
+                    latestArticles.style.display = "block";
+                }
+            });
+        }
+    });
+</script>
+
+{{- end }}{{/* end main */}}
