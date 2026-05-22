@@ -18,6 +18,8 @@ search_keywords: ["intelligence", "artificielle", "IA"]
 
 Source : <a href="https://iea.blob.core.windows.net/assets/18f3ed24-4b26-4c83-a3d2-8a1be51c8cc8/Electricity2024-Analysisandforecastto2026.pdf" style="color: #0070e0;">Electricity 2024 - Analysis and forecast to 2026</a>
 
+Unité Wh (Watt-heure) : Unité qui mesure la quantité d'énergie électrique consommée ou produite. Par exemple, une ampoule de 10 Watts allumée pendant une heure consomme 10 Wh. C'est l'unité idéale pour quantifier l'empreinte énergétique invisible de nos appareils numériques ou de notre électroménager.
+
 Aux États-Unis, on estime que l'expansion de l'IA sera responsable de 50 % de la croissance de la demande électrique totale d'ici 2030 <a href="https://iea.blob.core.windows.net/assets/18f3ed24-4b26-4c83-a3d2-8a1be51c8cc8/Electricity2024-Analysisandforecastto2026.pdf" style="color: #0070e0;">(Electricity 2024 - Analysis and forecast to 2026)</a>. Et la consomation électrique n'est que la face visible de l'impact.
 
 Cette accélération nécessite des infrastructures massives. La fabrication d'un seul processeur (comme les GPU NVIDIA H100) émet environ 1 312 kg de CO2eq = 7 000 km en voiture thermique <a href="https://arxiv.org/pdf/2605.05416" style="color: #0070e0;">(Lambert, Luccioni 2026)</a>.

@@ -33,6 +33,8 @@ Pour une même distance.
 
 Source : <a href="https://librairie.ademe.fr/mobilite-et-transports/3959-transports-et-mobilite-2020-2023-9791029716690.html#" style="color: #0070e0;">(Ademe)</a>.
 
+Unité kg CO2eq (Kilo de CO2 équivalent) : Unité de référence qui se focalise uniquement sur un seul critère d'impact sur les 16 existants, le plus connu : le réchauffement climatique. Comme il existe plusieurs gaz à effet de serre (le CO2, le méthane, etc.), on convertit le pouvoir polluant de tous ces gaz en une quantité équivalente de CO2 pour obtenir un score unique et comparable.
+
 Les transports représentent 34% des émissions de gaz à effet de serre en France. Et plus de la moitié est due aux véhicules particuliers.<a href="https://www.notre-environnement.gouv.fr/themes/climat/les-emissions-de-gaz-a-effet-de-serre-et-l-empreinte-carbone-ressources/article/les-emissions-de-gaz-a-effet-de-serre-des-transports#:~:text=53%20%25%20des%20%C3%A9missions%20de%20GES,l'ensemble%20des%20%C3%A9missions%20nationales" style="color: #0070e0;">(Commissariat Général au Développement Durable)</a>
 
 Lorsque vous en avez la possibilité, d'un point de vue pratique et économique, privilégiez des transports moins impactants pour l'environnement.

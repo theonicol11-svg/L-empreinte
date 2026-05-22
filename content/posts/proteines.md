@@ -40,6 +40,7 @@ Pour une même quantitée de protéine pour chaque aliments
 
 {{% detail title="source" %}}
 
+Unité kg CO2eq (Kilo de CO2 équivalent) : Unité de référence qui se focalise uniquement sur un seul critère d'impact sur les 16 existants, le plus connu : le réchauffement climatique. Comme il existe plusieurs gaz à effet de serre (le CO2, le méthane, etc.), on convertit le pouvoir polluant de tous ces gaz en une quantité équivalente de CO2 pour obtenir un score unique et comparable.
 
 Les résultats présentés sont calculés à partir de deux sources officielles.
 

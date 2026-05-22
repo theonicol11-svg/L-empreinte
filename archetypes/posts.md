@@ -13,7 +13,7 @@ IMPACT3
 
 
 
-{{% detail title="source" %}}
+{{% detail title="Source" %}}
 
 
 INFORMATIONS COMP

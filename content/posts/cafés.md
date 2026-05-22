@@ -20,6 +20,8 @@ search_keywords: ["Machine à café"]
 
 Source : <a href="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196648" style="color: #0070e0;">Marty et al. 2023</a>
 
+Unité kg CO2eq (Kilo de CO2 équivalent) : Unité de référence qui se focalise uniquement sur un seul critère d'impact sur les 16 existants, le plus connu : le réchauffement climatique. Comme il existe plusieurs gaz à effet de serre (le CO2, le méthane, etc.), on convertit le pouvoir polluant de tous ces gaz en une quantité équivalente de CO2 pour obtenir un score unique et comparable.
+
 L’impact environnemental d’une tasse de café ne se résume pas à son contenant. . L'Analyse de Cycle de Vie (ACV) montre que l'essentiel de la pollution se joue avant même que le café n'arrive dans votre cuisine.
 
 La culture du café représente entre 40 % et 70 % de l'impact total. <a href="https://theconversation.com/heres-how-your-cup-of-coffee-contributes-to-climate-change-196648" style="color: #0070e0;">(Marty et al. 2023)</a>. L'utilisation de pesticides et surtout la déforestation liée aux plantations pèsent bien plus lourd que la fabrication ou le recyclage des emballages.
