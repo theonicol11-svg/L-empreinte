@@ -45,7 +45,7 @@
     <!-- Section Articles Similaires -->
   <div class="related-wrapper">
       <div class="related-grid">
-          {{ range first 2 (where (where .Site.RegularPages "Section" "posts") "Permalink" "!=" .Permalink) }}
+          {{ range first 6 (where (where .Site.RegularPages "Section" "posts") "Permalink" "!=" .Permalink) }}
           <a href="{{ .Permalink }}" class="related-card">
               <div class="related-content">
                   <h4>{{ .Title }}</h4>
