@@ -9,7 +9,7 @@ draft: false
 
 ## Quelle <span class="objet-focus">protéine</span> est la moins polluante ?
 
-Pour une même quantitée de protéine pour chaque aliments
+Pour une même quantité de protéine pour chaques aliments
 
 {{< impact_V5 nom="Haricot rouge (cuit)" valeur="1.0" p1="2" p2="5" poids="0,000693665628245067kg CO2eq / g de protéine" details="Champion de l'efficacité ; culture fixatrice d'azote nécessitant très peu d'engrais par gramme de protéine." lien="https://agribalyse.ademe.fr/app/aliments/20503#Haricot_rouge,_cuit">}}
 {{< impact_V5 nom="Tofu (cru)" valeur="1.1" p1="2" p2="5" poids="0,000748299319727891kg CO2eq / g de protéine" details="Impact très faible car la transformation du soja est bien plus sobre que la conversion végétale en protéine animale." lien="https://agribalyse.ademe.fr/app/aliments/20904#Tofu,_nature">}}
